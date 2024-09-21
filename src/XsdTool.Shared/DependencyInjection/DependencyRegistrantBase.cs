@@ -6,7 +6,7 @@ namespace XsdTool.Shared.DependencyInjection;
 /// <summary>
 /// The abstract implementation of <see cref="IDependenyRegistrant"/>.
 /// </summary>
-public abstract class DependencyInjectionBase : IDependenyRegistrant
+public abstract class DependencyRegistrantBase : IDependenyRegistrant
 {
     void IDependenyRegistrant.Register(IServiceCollection container)
     {
