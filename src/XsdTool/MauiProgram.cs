@@ -1,5 +1,6 @@
 ﻿using CommunityToolkit.Maui;
 using Microsoft.Extensions.Logging;
+using XsdTool.Shared.DependencyInjection;
 
 namespace XsdTool
 {
@@ -20,8 +21,14 @@ namespace XsdTool
 #if DEBUG
     		builder.Logging.AddDebug();
 #endif
+            RegisterDepencencies(builder.Services, new Presentation.DependencyRegistrant());
 
             return builder.Build();
+        }
+
+        public static void RegisterDepencencies(IServiceCollection container, IDependenyRegistrant registrant)
+        {
+            registrant.Register(container);
         }
     }
 }

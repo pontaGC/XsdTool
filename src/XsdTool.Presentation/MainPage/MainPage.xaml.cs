@@ -1,6 +1,9 @@
-﻿namespace XsdTool
+﻿namespace XsdTool.Presentation.MainPage
 {
-    public partial class MainPage : ContentPage
+    /// <summary>
+    /// Interaction logic for <see cref="MainPage"/>.xaml.
+    /// </summary>
+    internal partial class MainPage
     {
         int count = 0;
 

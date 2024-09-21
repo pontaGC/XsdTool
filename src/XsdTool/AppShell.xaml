@@ -6,10 +6,4 @@
     xmlns:local="clr-namespace:XsdTool"
     Shell.FlyoutBehavior="Disabled"
     Title="XsdTool">
-
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
-
 </Shell>
