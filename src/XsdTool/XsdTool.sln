@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XsdTool", "XsdTool.csproj", "{34B216AF-D872-46BC-A3F3-F443BD972D41}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XsdTool.Presentation.Core", "..\XsdTool.Presentation.Core\XsdTool.Presentation.Core.csproj", "{14E39943-D530-4CA2-BC9A-4AFDD2BF6AC1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,10 @@ Global
 		{34B216AF-D872-46BC-A3F3-F443BD972D41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34B216AF-D872-46BC-A3F3-F443BD972D41}.Release|Any CPU.Build.0 = Release|Any CPU
 		{34B216AF-D872-46BC-A3F3-F443BD972D41}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{14E39943-D530-4CA2-BC9A-4AFDD2BF6AC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14E39943-D530-4CA2-BC9A-4AFDD2BF6AC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14E39943-D530-4CA2-BC9A-4AFDD2BF6AC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14E39943-D530-4CA2-BC9A-4AFDD2BF6AC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
