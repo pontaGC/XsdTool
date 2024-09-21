@@ -6,3 +6,5 @@
 /src/XsdTool/.vs
 /src/XsdTool/bin/Debug
 /src/XsdTool/obj
+/src/XsdTool.Presentation.Core/bin/Debug
+/src/XsdTool.Presentation.Core/obj
