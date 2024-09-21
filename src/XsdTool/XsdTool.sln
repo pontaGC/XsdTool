@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XsdTool.Presentation.Core",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XsdTool.Presentation", "..\XsdTool.Presentation\XsdTool.Presentation.csproj", "{C650E096-C7BC-4CB4-A661-2BEE4D276700}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XsdTool.Shared", "..\XsdTool.Shared\XsdTool.Shared.csproj", "{AEA07E7D-EAD9-4EA1-B905-D36B9E4F9964}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{C650E096-C7BC-4CB4-A661-2BEE4D276700}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C650E096-C7BC-4CB4-A661-2BEE4D276700}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C650E096-C7BC-4CB4-A661-2BEE4D276700}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEA07E7D-EAD9-4EA1-B905-D36B9E4F9964}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEA07E7D-EAD9-4EA1-B905-D36B9E4F9964}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEA07E7D-EAD9-4EA1-B905-D36B9E4F9964}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEA07E7D-EAD9-4EA1-B905-D36B9E4F9964}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

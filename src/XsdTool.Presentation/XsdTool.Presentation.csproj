@@ -33,6 +33,7 @@
 
 	<ItemGroup>
 	  <ProjectReference Include="..\XsdTool.Presentation.Core\XsdTool.Presentation.Core.csproj" />
+	  <ProjectReference Include="..\XsdTool.Shared\XsdTool.Shared.csproj" />
 	</ItemGroup>
 
 </Project>
