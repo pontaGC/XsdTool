@@ -1,12 +1,12 @@
 ﻿namespace XsdTool
 {
-    public partial class App : Application
+    public partial class App
     {
-        public App()
+        public App(IServiceProvider serviceProvider)
         {
             InitializeComponent();
 
-            MainPage = new AppShell();
+            MainPage = new AppShell(serviceProvider);
         }
     }
 }
